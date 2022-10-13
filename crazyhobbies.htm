@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<Head>
+	<title>Responsive Website</title>
+
+<!-- 
+	bgcolor
+	#181818-darkest-grey
+	#222222-dark-grey 
+	#2B2B2B-light grey
+	#373737-lighter grey
+	font color
+	#cfcfcf
+	#b4b4b4
+
+-->
+
+<style>
+
+
+* {
+  box-sizing: border-box;
+}
+  
+p{
+  color: #cfcfcf;
+  }
+  
+h2{
+    color: #b4b4b4; 
+  }
+  
+h5{
+  color: #b4b4b4;
+  }
+
+body{
+	background-color: #222222;
+}
+@media screen and (min-width: 480px) {
+	body{
+	background-color: #181818;
+	}
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #373737;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  background-color: #222222;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.navbar a:hover {
+  background-color: #ddd ;
+  color: black;
+}
+
+.column {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 20%;
+  background-color: #2B2B2B;
+  padding: 20px;
+}
+
+.main {
+  flex: 70%;
+  background-color: #373737;
+  padding: 20px;
+}
+
+
+.card1{
+  background-color: #222222;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 25px 0;
+  text-align: center;
+  color: #cfcfcf;
+}
+
+.card1:hover{
+  background: url("fav1.jpg") no-repeat;
+  color: black;
+}
+
+.card2{
+  background-color: #222222;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 25px 0;
+  text-align: center;
+  color: #cfcfcf;
+}
+
+.card2:hover{
+  background: url("fav2.jpg") no-repeat;
+  color: black;
+  background-size: 100%;
+  background-position: center;
+}
+
+.card3{
+  background-color: #222222;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 25px 0;
+  text-align: center;
+  color: #cfcfcf;
+}
+
+.card3:hover{
+  background: url("fav3.jpg") no-repeat;
+  color: black;
+  background-size: 100%;
+
+}
+
+.card4{
+  background-color: #222222;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 25px 0;
+  text-align: center;
+  color: #cfcfcf;
+}
+
+.card4:hover{
+  background: url("fav4.jpg") no-repeat;
+  color: black;
+  background-size: 100%;
+  background-position: center;
+}
+
+.card5{
+  background-color: #222222;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 25px 0;
+  text-align: center;
+  color: #cfcfcf;
+}
+
+.card5:hover{
+  background: url("fav5.jpg") no-repeat;
+  color: black;
+  background-size: 100%;
+  background-position: center;
+}
+
+.card6{
+  background-color:  #222222;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 25px 0;
+  text-align: center;
+  color: #cfcfcf;
+}
+
+.card6:hover{
+  background: url("fav6.jpg") no-repeat;
+  color: black;
+  background-size: 100%;
+  background-position: center;
+}
+
+.card7{
+  background-color: #222222;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 25px 0;
+  text-align: center;
+  color: #cfcfcf;
+}
+
+.card7:hover{
+  background: url("fav7.jpg") no-repeat;
+  color: black;
+  background-size: 100%;
+  background-position: center;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #222222;
+}
+
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<Body>
+
+
+<div style="background:#222222;padding:5px">
+  <h4 style="text-align:center"></h4>
+</div>
+
+<div class="header">
+  <h1>MY CRAZY HOBBIES</h1>
+  <p> Get to know me <b>Better.</b></p>
+</div>
+
+<div class="navbar">
+  <a href="#">Menu</a>
+  <a href="#">Gallery</a>
+  <a href="#">Links</a>
+  <a href="#">More</a>
+</div>
+
+<div class="column">
+  <div class="side">
+    <h2>ME</h2>
+    <h5>A photo of Me:</h5>
+    <img src="about1.jpg" style="height:200px">
+    <p>My name is Jordan Villa Villeza, I just turned 20 years old last September 5, 2022. I was born in Las piñas City and still living here up until now.</p>
+<br>
+
+    <h2>My Favorites</h2>
+    <p>These are few of my favorite things:<br>(point to hover)</p>
+    <p><b>favorite color</b></p>
+    <div class="card1" style="height:80px;"><b>Green</b></div>
+    <p><b>favorite song</b></p>
+    <div class="card2" style="height:80px;"><b>Pluto Projector</b></div>
+    <p><b>favorite album</b></p>
+    <div class="card3" style="height:80px;"><b>búhay/buháy-Munimuni</b></div>
+    <p><b>favorite movie</b></p>
+    <div class="card4" style="height:80px;"><b>Taare Zameen Par</b></div>
+    <p><b>favorite dessert</b></p>
+    <div class="card5" style="height:80px;"><b>Mango Graham Float</b></div>
+    <p><b>favorite pet</b></p>
+    <div class="card6" style="height:80px;"><b>(my)Cats</b></div>
+    <p><b>favorite picture of me</b></p>
+    <div class="card7" style="height:80px;"><b>Me at Intramuros</b></div>
+   
+  </div>
+  <div class="main">
+    <h2>Art</h2>
+    <h5>Traditional Graphite painting and Postercolor paint</h5>
+     <img src="art1.jpg" style="height:200px;"> <img src="art2.jpg" style="height:200px;"> <img src="art3.jpg" style="height:200px;">
+    <p>Drawing is one of my favorite hobby but is also the hardest to do. Not only it takes time to finish but also the time it consumes for a project can last up until 3 to 5 days. Practicing drawing is also the hardest part, it can take years and years to be better in this field. Finishing an artwork was such a relief and when people appreciates it, it is almost heartfelt and wholesome for me.</p>
+    <br>
+    <h2>Music Ukulele</h2>
+    <h5>Suprano Ukulele</h5>
+     <img src="ukulele1.jpg" style="height:200px;">  <img src="ukulele2.jpg" style="height:200px;">  <img src="ukulele3.jpg" style="height:200px;">
+    <p>I bought this Ukulele during the summer of 2019 at quiapo market. I learned to play it by myself and I used to play ukulele everyday since i bought it. It is easy to play because it is small, but mine's too small for my hands, but I'm used to play with it still. I love playing ukulele to kill some time and as a hobby because it's light weight compare to a guitar, and it's convinient to bring into our class to play and sing with my classmates and friends during out lunchbreak.</p>
+      <br>
+    <h2>Music Guitar</h2>
+    <h5>Acoustic guitar and Electric guitar</h5>
+    <img src="guitar1.jpg" style="height:200px;">  <img src="guitar2.jpg" style="height:200px;">  <img src="guitar3.jpg" style="height:200px;">
+
+    <p>Playing guitar is my favorite hobby because I love playing music when I'm alone and also to sing at the same time. Acoustic guitar was the second instrument that I have learned and to play because the first instrument that I used to play was a keyboard, but I totally forgot how to play it since I used to play it when I was just a kid in choir. I love playing guitar because I can play the songs that I love. Also I can play guitar even with small breaks like 10 minutes break or shorter, unlike drawing that can took a lot of time. I don't usually show my face when I'm recording a video becuase I'm too shy for my performance, but when I'm with my mini-band called "Maenggoy Band" that me and my friends made, I gain a confidence that I don't really know I have. This band was formed by me and my friends; Jade our Lead vocalist, Jamieson our Lead guitarist, Me the Rhythm guitarist, and our Lead model Maeng. Maeng doesn't do anything aside being pretty and being the highlight the band, just kidding haha. I miss this band that me and my friends made, sadly they already left this City so we're not be able to continue to play songs. But that's still a good Jam, good friendship, and the best memories we have formed that will remain as my best hobby that I had. well played.</p><br>
+
+<center><p>That's all :)</p></center>
+    
+  </div>
+</div>
+
+<div class="footer">
+  <h2> <br></h2>
+</div>
+	
+
+</body>
+<Footer>
+</Footer>
+</html>
+
